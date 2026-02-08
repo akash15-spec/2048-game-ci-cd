@@ -51,20 +51,20 @@ IAM Roles & Policies – Secure communication between AWS services
 
 🚀 Key Features
 
-✅ End-to-end CI/CD automation
+ End-to-end CI/CD automation
 
-✅ Dockerized application deployment
+ Dockerized application deployment
 
-✅ Serverless container execution using Fargate
+ Serverless container execution using Fargate
 
-✅ Automated image build and push to ECR
+ Automated image build and push to ECR
 
-✅ Scalable and production-style architecture
+ Scalable and production-style architecture
 
-✅ Minimal manual intervention
+ Minimal manual intervention
 
 🛠️ Implementation Steps
-1️⃣ Set Up ECS Cluster & ECR Repository
+1️.Set Up ECS Cluster & ECR Repository
 
 Create an ECS cluster using Fargate
 
@@ -72,7 +72,7 @@ Create an ECR repository to store Docker images
 
 Configure IAM roles for ECS and CodeBuild
 
-2️⃣ Prepare the 2048 Game Code
+2️. Prepare the 2048 Game Code
 
 Dockerize the 2048 game using a Dockerfile
 
@@ -80,7 +80,7 @@ Test the container locally
 
 Push code to GitHub
 
-3️⃣ Set Up CodeBuild (Continuous Integration)
+3️. Set Up CodeBuild (Continuous Integration)
 
 Configure a buildspec.yml
 
@@ -90,7 +90,7 @@ Authenticate to ECR
 
 Push the image to ECR
 
-4️⃣ Set Up CodePipeline (Continuous Deployment)
+4️. Set Up CodePipeline (Continuous Deployment)
 
 Connect GitHub as the source
 
